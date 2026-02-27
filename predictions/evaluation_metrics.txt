@@ -1,0 +1,31 @@
+EVALUATION RESULTS
+==================================================
+Mean IoU:          0.2212
+mAP50:             0.1899
+==================================================
+
+Per-Class IoU:
+----------------------------------------
+  Trees               : 0.2185
+  Lush Bushes         : 0.0302
+  Dry Grass           : 0.1783
+  Dry Bushes          : 0.1527
+  Ground Clutter      : 0.0134
+  Flowers             : 0.0000
+  Logs                : 0.0003
+  Rocks               : 0.0531
+  Landscape           : 0.6015
+  Sky                 : 0.9638
+
+Per-Class AP50:
+----------------------------------------
+  Trees               : 0.0216
+  Lush Bushes         : 0.0000
+  Dry Grass           : 0.0000
+  Dry Bushes          : 0.0000
+  Ground Clutter      : 0.0000
+  Flowers             : 0.0000
+  Logs                : 0.0000
+  Rocks               : 0.0047
+  Landscape           : 0.8696
+  Sky                 : 1.0000
