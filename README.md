@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Semantic Scene Segmentation
 
 A semantic segmentation model for off-road/rover imagery using **DINOv2 Vision Transformer** backbone with a custom ConvNeXt-style decoder head.
@@ -206,3 +207,7 @@ Aakash Kumar - aakash.kumar.ug24@nsut.ac.in
 
 ---
 ⭐ Star this repo if you find it useful!
+=======
+# Semantic-Scene-Segmentation
+This project implements a semantic segmentation pipeline that performs pixel-level classification of images. The model is trained using PyTorch and evaluates performance using IoU and Dice metrics.  The system processes input images and generates color-coded segmentation masks where each pixel is assigned a semantic class .
+>>>>>>> c3133231bd8508e8a0cae05281876e8d9542b873
