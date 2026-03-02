@@ -93,13 +93,7 @@ python model_scripts/train_segmentation.py
 python model_scripts/test_segmentation.py
 ```
 
-**Testing Options:**
-| Argument | Description | Default |
-|----------|-------------|---------|
-| `--model_path` | Model weights path | `best_model.pth` |
-| `--data_dir` | Test dataset path | `Offroad_Segmentation_testImages` |
-| `--output_dir` | Predictions output | `predictions` |
-| `--batch_size` | Inference batch size | `2` |
+
 
 ## Training Features
 
@@ -110,16 +104,7 @@ python model_scripts/test_segmentation.py
 - **Data Augmentation** - Flip, rotation, scale, color jitter
 - **Early Stopping** - Patience of 15 epochs
 - **Gradient Clipping** - Max norm of 1.0
- Configuration
-
-Edit `model_scripts/train_segmentation.py`:
-
-```python
-BATCH_SIZE = 4
-LR = 1e-3
-N_EPOCHS = 50
-BACKBONE_SIZE = "base"  # small, base, large, giant
-```
+  
 
 ## License
 
