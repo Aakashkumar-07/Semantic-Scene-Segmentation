@@ -79,14 +79,6 @@ python model_scripts/train_segmentation.py --fresh_start
 python model_scripts/train_segmentation.py
 ```
 
-**Training Options:**
-| Argument | Description | Default |
-|----------|-------------|---------|
-| `--model_path` | Best model save path | `best_model.pth` |
-| `--last_model_path` | Last epoch model path | `last_model.pth` |
-| `--results_csv` | Training metrics CSV | `training_results.csv` |
-| `--fresh_start` | Ignore checkpoint, train fresh | `False` |
-
 ### 4. Test Model
 
 ```bash
